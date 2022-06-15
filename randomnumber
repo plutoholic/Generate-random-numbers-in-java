@@ -1,0 +1,13 @@
+import java.util.*;
+
+
+public class randomnumber {
+  public static void main(String[] args) {
+Random rand = new Random();
+
+int resRandom = rand.nextInt((int)(Math.random() *(9000-1000+1) + 1000));
+			int length = (int) (Math.log10(resRandom) + 1);
+			if(length==4) //this makes sure the number is a 4 digit number
+        System.out.println(s + " " + subEx.getLastnCharacters(arr[actual],2) + " " + resRandom);
+ }
+ }
